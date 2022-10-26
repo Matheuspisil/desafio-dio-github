@@ -1,0 +1,84 @@
+List de Comando das Aulas Git
+
+add usuário referente a conta github
+git config --global user.name "Leonardo Comelli"
+add e-mail referente a conta github
+git config --global user.email leonardo@software-ltda.com.br
+Listar configurações
+git config --list
+Criar novo repositório local
+git init
+Verificar estado dos arquivos/diretórios
+git status
+Adicionar um arquivo em específico
+git add meu_arquivo.txt
+Adicionar todos os arquivos/diretórios
+git add .	
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+Remover arquivo
+git rm meu_arquivo.txt
+Remover diretório
+git rm -r diretorio
+Exibir histórico
+git log
+git checkout -- meu_arquivo.txt
+git remote -v
+git push - envia para remoto no github
+git pull - atualiza a versão para dar push atualizado
+git push origin main - manda para o repositorio remoto
+git branch master -Criando um novo branch
+git checkout master - mudando de branch
+git merge master - unir as branchs
+git branch -v - todas as branchs
+git branch --merged  - branchs mergeadas
+
+comando para ssl do gitbash em maquinas
+
+ssh-keygen -t ed25519 -c meuemail@meuemail.com
+
+colocar uma senha (não vai ficar visivel, basta apertar enter) 
+adicionar a chave 
+vizualizar o comando sha256
+
+resgatar a chave gerada com o comando
+cat id_ed25519.pub ( a chave precisa ser a pubica".pub")
+
+copiar o item, e por no site do github
+
+confirmar o local em você está no git
+com o comando dir ou pwd
+
+após copiar a chave para o git  adicionar a chave privada com o comando
+eval.
+
+eval $(ssh-agent -s)
+esse comando só tem efeito sendo adicionado na pasta de origem do ssh
+
+logo após agent pid vai ser gerado com uma numeração e um resultado
+(agent pid 1155)
+
+agora é nescessario adicionar esse ssh na chave privada com o comando
+ssh-add id_ed25519
+
+comands para comits
+git
+comando mv titulodoarquivo.md ./pastaquedesejamover/
+
+dir -a  - mostra arquivos ocultos
+
+git config --global --unset user.email remove configs colocadas anteriormente
+comando echo > cria arquivos comuns ex: txt . md . css . jv
+
+
+comando importante
+git remote add origin https://github.com/Matheuspisil/testessh.git
+
+comando git remote -v lista os repos cadastrados
+
+
+
+
+
+
+
