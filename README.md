@@ -1,4 +1,4 @@
-# <center>**Desafio-dio-Git/Github**  :exploding_head:</center>
+# <center>**Desafios-Bootcamp-DIO**  :exploding_head:</center>
 
 ### Desafio do projeto das aulas de Git/Github na plataforma DIO.<br>
 
