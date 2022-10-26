@@ -1,0 +1,6 @@
+curso de git/github
+
+Ótimo curso para organizar seus arquivos em repositorios online.
+
+As versões são atualizações de forma prática e útil, 
+deixando um historico muito bem organizadoe estruturado.
